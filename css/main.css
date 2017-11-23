@@ -1,0 +1,132 @@
+/**BASE STYLES**/
+#gallery, #reviews,#contact{
+	height: 209;
+border:0 2px 2px 2px;
+border-color: black;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+
+
+}
+
+
+@font-face{
+
+	font-family:Wisdom Script AJ;
+	src:url('wisdom-script.otf') format('opentype');
+
+}
+
+/**GRID**/
+
+.full-width{
+width: 1200px;
+}
+
+
+
+#reviews .third-width{
+float: left;
+width: 400px;
+border-right:1px solid black;
+margin-right: 0px;
+margin-left: 0px;
+padding-left: 31px;
+
+
+}
+
+ #gallery .third-width{
+float: left;
+width: 400px;
+border-right:1px solid black;
+
+}
+
+#contact .third-width {
+float: left;
+width: 400px;
+padding-left: 34px;
+}
+/**NAVIGATION**/
+ nav {
+	float: right;
+}
+
+nav ul li{
+		display: inline;
+		padding:53px 20px 47px;
+
+
+}
+
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration:none;
+	color: #77a466;
+		font-size:14px;
+}
+/**HEADER**/
+header img{
+}
+
+header{
+	height: 356px;
+}
+
+header h1{
+	padding: 2px 0;
+	width: 400px;
+	font-size: 30px;
+}
+.half-width h1{
+	float: left;
+	width: 300px;
+}
+
+span{
+		color: #77a466;
+
+}
+/**MAIN**/
+.full-width p{
+	clear: both !important;
+	line-height: 20px;
+}
+
+#about h3{
+	width: 1200px;
+	color: #77a466;
+
+}
+
+.full-width p{
+	font-size: 16px;
+}
+
+#gallery p{
+	color:#77a466;
+	font-weight: normal;
+	line-height: 27px;
+
+}
+
+.third-width{
+	border-top:1px solid black;
+}
+
+
+/****FOOTER**/
+footer div h3{margin:0 auto;
+clear: both;
+text-align: center;
+}
+
+footer span{
+	color:#77a466;
+	font-family: wisdom-script;
+
+}
